@@ -17,3 +17,7 @@ This become complex as long as the models files has lots of `$bodygroup` combina
 * At settings form, set the total of `$bodygroup` lists that behaves to the weapon body in your `weapon.qc` file.
 * At skin form, optionally add the skin name and its texture for listing purpose and click `Add to list`.
 * Once a skin is added, its body group index will be attached to the front of its name. Just click to copy!
+
+# Credits
+
+Thanks to [@Goodnato](https://github.com/Goodnato/) for the [javascript sub group code](https://github.com/AdamRichard21st/cs-skins-management/blob/master/src/js/subgroups.js).
