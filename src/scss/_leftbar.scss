@@ -1,0 +1,19 @@
+#leftbar {
+
+    background: linear-gradient(
+        $leftbar-bg,
+        transparent);
+    backdrop-filter: blur(5px);
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgb(0 0 0 / 10%);
+
+    .logo-wrapper {
+
+        .logo {
+
+            width: 70px;
+            height: auto;
+            filter: drop-shadow(-5px 5px 5px rgba(0,0,0,.1));
+        }
+    }
+}

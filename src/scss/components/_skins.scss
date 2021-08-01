@@ -1,0 +1,52 @@
+#skins {
+
+    $skin-cover-height: 100px;
+
+    .skin {
+
+        overflow: hidden;
+        border-radius: 1em;
+        background: $body-bg;
+
+
+        .skin-cover {
+
+            height: $skin-cover-height;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .skin-content {
+
+            .skin-subid {
+
+                font-family: monospace;
+                cursor: pointer;
+                padding: .1em .4em;
+                border-radius: .5em;
+                background: $leftbar-bg;
+
+                &::before {
+
+                    display: inline-block;
+                    content: "#";
+                    width: 2px;
+                    opacity: .6;
+                }
+            }
+
+            .skin-name {
+    
+                font-size: 1.1em;
+                word-break: break-all;
+            }
+    
+            .skin-texture {
+    
+                padding: .15rem .5rem;
+                border-radius: .5em;
+                word-break: break-all;
+            }
+        }
+    }
+}

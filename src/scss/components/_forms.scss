@@ -1,0 +1,18 @@
+form {
+
+    border: 1px solid $leftbar-bg;
+    border-radius: 1em;
+
+    input {
+
+        border-radius: .5em !important;
+        border-color: $leftbar-bg !important;
+        background: $leftbar-bg !important;
+    }
+
+    input::placeholder {
+
+        color: #fff !important;
+        opacity: .6 !important;
+    }
+}

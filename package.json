@@ -1,0 +1,32 @@
+{
+  "name": "cs-subgroups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "loadash": "^1.0.0",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.47.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ./node_modules/.bin/webpack",
+    "watch": "npx ./node_modules/.bin/webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
