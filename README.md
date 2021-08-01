@@ -1,3 +1,5 @@
+<img src="https://github.com/AdamRichard21st/cs-skins-management/blob/master/assets/images/github/preview.gif?raw=true" width="100%" height="auto" alt="Preview"/>
+
 # About
 
 This a compacted web-based tool for outputing goldsource models subgroups indexes.
